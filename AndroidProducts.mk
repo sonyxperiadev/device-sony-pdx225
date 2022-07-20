@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_xqcc72.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_xqcc54.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_xqcc72-eng \
-    aosp_xqcc72-userdebug
+    aosp_xqcc54-eng \
+    aosp_xqcc54-userdebug

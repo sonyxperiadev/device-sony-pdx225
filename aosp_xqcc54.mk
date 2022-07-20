@@ -25,7 +25,7 @@ $(call inherit-product, device/sony/pdx225/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_xqcc72
+PRODUCT_NAME := aosp_xqcc54
 PRODUCT_DEVICE := pdx225
 PRODUCT_MODEL := Xperia 10 IV (AOSP)
 PRODUCT_BRAND := Sony

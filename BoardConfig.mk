@@ -15,10 +15,10 @@
 include device/sony/murray/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
-ifneq (,$(filter %xqcc72,$(TARGET_PRODUCT)))
-TARGET_BOOTLOADER_BOARD_NAME := XQ-CC72
+ifneq (,$(filter %xqcc54,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := XQ-CC54
 else
-TARGET_BOOTLOADER_BOARD_NAME := XQ-CC72
+TARGET_BOOTLOADER_BOARD_NAME := XQ-CC54
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 
