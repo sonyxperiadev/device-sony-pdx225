@@ -26,7 +26,7 @@ endif
 PRODUCT_PLATFORM := murray
 
 # Kernel cmdline
-BOARD_KERNEL_CMDLINE += androidboot.hardware=pdx225
+BOARD_BOOTCONFIG += androidboot.hardware=pdx225
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=pdx225
 
 # Partition information
