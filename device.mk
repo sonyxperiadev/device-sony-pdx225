@@ -18,6 +18,9 @@ DEVICE_PATH := device/sony/pdx225/rootdir
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/pdx225/overlay
 
+# Speed profile services and wifi-service to reduce RAM and storage
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
